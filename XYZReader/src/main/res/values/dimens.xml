@@ -1,0 +1,33 @@
+<resources>
+    <!-- detail -->
+    <dimen name="detail_title_text_size">32sp</dimen>
+    <dimen name="detail_body_text_size">20sp</dimen>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+
+    <dimen name="fab_elevation">2dp</dimen>
+    <dimen name="fab_press_translation_z">6dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+
+    <!-- Article Activity -->
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="lst_margin_bottom">20dp</dimen>
+    <dimen name="lst_margin_top">15dp</dimen>
+    <dimen name="lst_item_margin">4dp</dimen>
+    <dimen name="lst_item_height">250dp</dimen>
+    <dimen name="lst_img_item_height">100dp</dimen>
+    <dimen name="lst_txt_item_padding">16dp</dimen>
+    <dimen name="lst_txt_item_padding_bottom">4dp</dimen>
+
+    <!-- elevation -->
+    <dimen name="elevation_appbar">4dp</dimen>
+    <dimen name="elevation_card">2dp</dimen>
+    <dimen name="elevation_card_picked">8dp</dimen>
+    <dimen name="elevation_fab">6dp</dimen>
+    <dimen name="elevation_fab_pressed">12dp</dimen>
+    <dimen name="elevation_refresh">3dp</dimen>
+
+
+    <!-- article details -->
+    <dimen name="photo_height">150dp</dimen>
+    <dimen name="article_details_margin">160dp</dimen>
+</resources>
