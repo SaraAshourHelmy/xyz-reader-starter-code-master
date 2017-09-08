@@ -29,5 +29,5 @@
 
     <!-- article details -->
     <dimen name="photo_height">150dp</dimen>
-    <dimen name="article_details_margin">160dp</dimen>
+    <dimen name="article_details_margin">152dp</dimen>
 </resources>

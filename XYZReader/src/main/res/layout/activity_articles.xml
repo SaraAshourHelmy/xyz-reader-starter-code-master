@@ -9,15 +9,13 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/app_bar_height"
-        android:background="@color/color_primary"
         android:elevation="@dimen/elevation_appbar"
-        android:fitsSystemWindows="true"
+
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fitsSystemWindows="true"
             app:expandedTitleMarginStart="20dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:title="@string/collapsing_toolbar">
@@ -31,21 +29,16 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <android.support.v4.widget.NestedScrollView
+
+    <android.support.v7.widget.RecyclerView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="@dimen/lst_margin_bottom"
         android:layout_marginTop="@dimen/lst_margin_top"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recycler_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingLeft="@dimen/list_side_margin"
-            android:paddingRight="@dimen/list_side_margin"
-            android:scrollbarStyle="outsideOverlay" />
-    </android.support.v4.widget.NestedScrollView>
+        android:paddingLeft="@dimen/list_side_margin"
+        android:paddingRight="@dimen/list_side_margin"
+        android:scrollbarStyle="outsideOverlay" />
 
 </android.support.design.widget.CoordinatorLayout>
